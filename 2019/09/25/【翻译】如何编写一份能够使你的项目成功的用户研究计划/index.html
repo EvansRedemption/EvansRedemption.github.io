@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="私以为这篇文章可以作为纲领，对整个流程有一个大致梳理。时时查看，时时自省。第一次翻译外文，若有疏漏，敬请谅解。原文链接：How to Write a User Research Plan That Sets Your Project Up for Success">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【翻译】如何编写一份能够使你的项目成功的用户研究计划">
+<meta property="og:url" content="http://yoursite.com/2019/09/25/【翻译】如何编写一份能够使你的项目成功的用户研究计划/index.html">
+<meta property="og:site_name" content="Redemption">
+<meta property="og:description" content="私以为这篇文章可以作为纲领，对整个流程有一个大致梳理。时时查看，时时自省。第一次翻译外文，若有疏漏，敬请谅解。原文链接：How to Write a User Research Plan That Sets Your Project Up for Success">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/2019/09/25/【翻译】如何编写一份能够使你的项目成功的用户研究计划/nikki-example.png">
+<meta property="og:updated_time" content="2019-10-08T06:01:47.544Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="【翻译】如何编写一份能够使你的项目成功的用户研究计划">
+<meta name="twitter:description" content="私以为这篇文章可以作为纲领，对整个流程有一个大致梳理。时时查看，时时自省。第一次翻译外文，若有疏漏，敬请谅解。原文链接：How to Write a User Research Plan That Sets Your Project Up for Success">
+<meta name="twitter:image" content="http://yoursite.com/2019/09/25/【翻译】如何编写一份能够使你的项目成功的用户研究计划/nikki-example.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2019/09/25/【翻译】如何编写一份能够使你的项目成功的用户研究计划/">
+
+
+
+
+
+  <title>【翻译】如何编写一份能够使你的项目成功的用户研究计划 | Redemption</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Redemption</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Life is lost, reflection and redemption.</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/25/【翻译】如何编写一份能够使你的项目成功的用户研究计划/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Evans">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Redemption">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">【翻译】如何编写一份能够使你的项目成功的用户研究计划</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-09-25T16:57:15+08:00">
+                2019-09-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/交互思考/" itemprop="url" rel="index">
+                    <span itemprop="name">交互思考</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>私以为这篇文章可以作为纲领，对整个流程有一个大致梳理。时时查看，时时自省。<br>第一次翻译外文，若有疏漏，敬请谅解。原文链接：<a href="https://dscout.com/people-nerds/how-to-write-a-user-research-plan-that-sets-your-project-up-for-success#2" target="_blank" rel="noopener"><br>How to Write a User Research Plan That Sets Your Project Up for Success</a></p>
+<a id="more"></a>
+<hr>
+<p>当我们思考工作中什么是让我们热爱——让我们兴奋的东西，启发了我们的东西，触发了下一个“a-ha”时刻的东西——我们极少想到流程或是文档。</p>
+<p>但当我们思考工作中什么是让我们沮丧——下一阶段延期了，项目不被关注，后勤支持削减了——我们常常归因到流程和文档上。</p>
+<p>制定一个研究计划——即便你不一定完全参考/使用它——它能帮助你的下一个项目更加顺利</p>
+<p>本“演练”能够教你在15分钟内指定一个计划，这将会节省你很多时间。</p>
+<hr>
+<h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><p>为什么需要一个研究计划<br>7大关键组成<br>Part 1：背景<br>Part 2：目标<br>Part 3：参与者<br>Part 4：方法论<br>Part 5：访谈指南<br>Part 6：大致时间表<br>Part 7：资源<br>结论</p>
+<hr>
+<h3 id="研究计划有什么意义？为什么我需要制定一个？"><a href="#研究计划有什么意义？为什么我需要制定一个？" class="headerlink" title="研究计划有什么意义？为什么我需要制定一个？"></a>研究计划有什么意义？为什么我需要制定一个？</h3><p>用户研究计划是项目时间表、目标、主要参与者和目的。<em>（Goal目标指一个大范围的愿景、方向和未来想要达到的模样。Objectives目的指把目标定义的更仔细和明确，从而去检视自己的方案和结果是否与目标吻合）</em> 这份计划在项目开始以后并不一定会被广泛使用，除非是提醒利益相关者们项目的目标，或者是解释一些后勤决策<em>（例如为什么需要招募某些特定的参与者）</em></p>
+<p>总而言之，研究计划提供了正在进行的活动的全局视野，也将会被作为一个项目的开端文件。它的意义在于它能够保证团队的正常运转，保证总体目标得到明确的定义和共识，同时保证这些目标能够被实现。</p>
+<p>它保证整个团队专注于结果，并且提供简单的参考，使利益相关者保持了解。它可以防止成员过早的陷入细节的泥潭，并防止我们在研究中因失误而更换目标。</p>
+<p>最重要的是，它使研究人员能够确保在项目结束之前以最有效和最高效的方式回答研究计划的目标。我们要确保我们确实在回答我们要揭示的问题，而研究计划是我们能够做到这一点。</p>
+<hr>
+<h3 id="研究计划的7个核心组件"><a href="#研究计划的7个核心组件" class="headerlink" title="研究计划的7个核心组件"></a>研究计划的7个核心组件</h3><ol>
+<li><strong>研究项目的背景</strong>，详细说明了我们进行这项研究的原因。这也可以包括内部利益相关者。</li>
+<li><strong>研究的目的和目标</strong>，我们想要在研究中发现什么，我们想要有什么样的产出物。我认为的目标是指我们能够在项目结束后，详细阐述所有目标。</li>
+<li>我们<strong>正在招募的参与者</strong>的分类，以及如何招募他们</li>
+<li>我们如何进行研究，以及采用什么样的<strong>研究方法</strong></li>
+<li><strong>访谈指南</strong>作为研究期间要遵循的说明/问题速查表<br>访谈指南包含简介、问题列表、结论等等</li>
+<li><strong>大致时间表</strong>指的是研究什么时候开始、什么时候能够有一个报告</li>
+<li>供人们查找的<strong>资源</strong>，例如指向任何其他文档的链接。</li>
+</ol>
+<hr>
+<h3 id="一个示例项目："><a href="#一个示例项目：" class="headerlink" title="一个示例项目："></a>一个示例项目：</h3><p>想象一下，你正在从事在线点餐的研究工作，该服务可以让你订购外卖食品。有一天，项目经理想要知道如何提高外卖率。</p>
+<p>经过一番往复，你知道了产品团队希望要获得产出。他们的目的是提高留存率和用户满意度。他们想要知道：为什么用户没有更频繁的点外卖？他们如何决定要点说明？团队希望对用户忠诚度的驱动因素有更全面的了解，以及了解阻碍用户忠诚于平台的痛点是什么。</p>
+<p>有了这些输入以后，你就可以准备计划了。然后，你就可以和产品团队分享初稿，以确保你正确地理解了他们的目标</p>
+<hr>
+<h3 id="Part-1：背景"><a href="#Part-1：背景" class="headerlink" title="Part 1：背景"></a>Part 1：背景</h3><p>背景部分相当简单。它由几句话组成，内容是研究的意义和发生的原因，人们的需求和期望是什么。背景也包含了一个问题陈述（你需要通过研究结果回答的最最核心的问题）</p>
+<p><strong><em>背景示例：</em></strong><br>我们想要为什么某些客户以更高的频率订购，以及阻碍客户订购的障碍是什么（核心问题）</p>
+<p>当用户决定订购外卖时，我们将用技术手段尝试去探索用户在我们平台内外的旅程，以便更好地了解他们在各种情况下面临的挑战和需求。</p>
+<hr>
+<h3 id="Part-2：目的"><a href="#Part-2：目的" class="headerlink" title="Part 2：目的"></a>Part 2：目的</h3><p>目的是这份计划中最难写的一部分。它们是你想在研究期间进一步了解的特定想法、你想要回答的问题。本质上，目的驱动整个项目的推进，那么，应该怎么去编写呢？</p>
+<p>首先，从最核心的问题开始：我们想要为什么某些客户以更高的频率订购，以及阻碍客户订购的障碍是什么</p>
+<p>我们的研究目的应该锚定在我们想要知道什么和我们如何去研究核心问题。</p>
+<p><strong><em>示例目的：</em></strong></p>
+<ul>
+<li>理解用户如何、为什么现在在我们的平台上订购事物</li>
+<li>在我们平台内外发现用户订外卖的动机</li>
+<li>发现用户用来订外卖的其他平台</li>
+<li>研究阻碍用户的痛点，以及所有他们可能做的事儿</li>
+</ul>
+<h4 id="不好的目的与更优的目的："><a href="#不好的目的与更优的目的：" class="headerlink" title="不好的目的与更优的目的："></a>不好的目的与更优的目的：</h4><p>这儿有些其他例子，用来说明好目的和坏目的的区别</p>
+<p><strong>不好</strong>：研究为什么用户会订外卖<br><strong>更好</strong>：研究用户为什么/如何选在在线订外卖的“旅程图”<br><strong>为什么</strong>：“研究为什么用户会订外卖”太过于苍白无力，它感觉起来太笼统了，你应该要更深入一点。你没有给这个问题设置方向和边界。</p>
+<p><strong>不好</strong>：研究如何获取在线订外卖的用户<br><strong>更好</strong>：发现用户在线订外卖背后的思维过程和之前订外卖的经验<br><strong>为什么</strong>：试图研究如何使某人做某事是一个充满挑战的研究视角。我们如何通过问问题获取这些信息？我们对用户在这个过程背后的思维过程、以及是否/为什么之前他们这么做更为感兴趣。这是一个更好的研究基础。</p>
+<p><strong>不好</strong>：找出用户为什么使用Postmates（一款欧美订餐软件）订购食物的原因<br><strong>更好</strong>：发现用户用来订外卖的不同的工具有哪些，以及用户对它们的感觉如何<br><strong>为什么</strong>：这可能是有意义的，如果你的用户常用的工具是Postmates而不是你的平台，这样你就可以做一个竞品分析。但是，在这个例子里，我们正在做的是由产品部门的需求和计划的背景描述定义的研究。所以，依靠研究发现使用了哪些其他工具是相当有意义的。否则，你将会过于专注，从而错过其他探索机会。</p>
+<hr>
+<h3 id="Part-3：参与者"><a href="#Part-3：参与者" class="headerlink" title="Part 3：参与者"></a>Part 3：参与者</h3><p>现在我们已经定义完了问题和目的，是时候定义我们获取所需见解（insight）的用户类型了。</p>
+<p>对任何项目而言，最重要的一点就是和对的人交流。如果你对要招募的人没有明确的认知，请对你的用户进行估算，然后将近似的人员纳入你的计划。这将有助于优化招聘工作，以确保你拥有研究所需的最佳参与者。以下是一些方法：</p>
+<ul>
+<li>花一天时间坐在办公室里定义你的目标用户。引入内部利益相关者，他们可能对目标用户有一些不错的想法<em>（例如市场、销售和用户支持人员）</em>与他们一起，你可以创建一个假设的用户画像，这可能会是一个好的开始。</li>
+<li>看看同类型竞争对手，然后招募他们的用户。在访谈中，问他们如何做的更好</li>
+<li>确保你写了一个能够招募到你需要的参与者的筛选表。比如你是否在找一个特定的行为<em>（例如过去3个月内订购xx次外卖的人）</em>？比如是否使用过你们的产品<em>（或者用过竞品）</em>？比如参与者是否要在一个特定的年纪或者特定的专业头衔？确保筛选表中包含了正确的条件，以便评估是否是你们的目标参与者。</li>
+<li>将筛选问题附加到计划中的这一部分通常是很有用的。</li>
+</ul>
+<hr>
+<h3 id="Part-4：方法论"><a href="#Part-4：方法论" class="headerlink" title="Part 4：方法论"></a>Part 4：方法论</h3><p>相对其他部分，这一部分很简单。在这个部分，简要讨论选择的方法以及为什么选择该特定方法的原因。</p>
+<p><strong><em>示例方法论：</em></strong><br>在这次研究中，我们将使用一对一访谈。这个方法将会使我们能够更升入的了解我们的用户，增强同理心，并使我们能够实现我们的目标。</p>
+<hr>
+<h3 id="Part-5：访谈指南"><a href="#Part-5：访谈指南" class="headerlink" title="Part 5：访谈指南"></a>Part 5：访谈指南</h3><p>如果你要和用户当面交谈，那么访谈指南将会是一个非常有价值的备忘录。它会提醒你哪些问题可以帮助你实现目标，并且保证交谈一直处于正轨上。</p>
+<p>如果你在进行纵向或者无限制研究，比如无限制可用性研究或日记研究，那么你的访谈指南可能需要包含确切的提示或触发因素，把这些发送给参与者，以便他们能完成任务。</p>
+<p>即便你没有怎么参考你的访谈指南，写一篇也可以确保团队中的其他人都有地方录入他们想要问的问题。而且，如果你概述了进行无限制研究的问题或者提示，请将这些问题公开，你的团队成员才有机会了解他们，并提出不理解的地方，避免自己陷入认知误区。（独裁误区）</p>
+<p>对于常规研究，我的面试之南一般包括以下部分：</p>
+<ol>
+<li>介绍</li>
+<li>问题</li>
+<li>总结</li>
+</ol>
+<h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><p>详细介绍了在访谈开始前和参与者说的话，并且能够预览将要讨论的所有不同的点。这有益于缓解紧张。</p>
+<p><strong><em>示例介绍：</em></strong><br>大家好，我是外卖公司的用户研究院Nikki。非常感谢今天能够和你进行访谈。在这个环节中，我们我们希望更好的了解是什么是你通过我们的服务订购外卖。想象一下，我们正在为你拍摄一部小型纪录片，我们只是想尝试理解你的所有想法。在这里没有正确或者错误的答案，你随意讲就好，我保证会非常有趣。这次访谈大概会花60分钟时间。如果你感觉不舒服，你可以在任意时候结束。你今天在这里所说的一切都是完全保密的。我们将今天的会议记录下来作为内部记录，可以吗？你有任何问题还有疑问吗？让我们开始吧</p>
+<h4 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h4><p>这部分是最难写的，在本节中，我们将编写一些开放式问题。对于大多数优质的访谈，你不需要准备一堆详细的问题，因为它更多是对话，而不是问答。不过一些准备妥当的开放性问题有助于把握整体方向。</p>
+<p><strong><em>专家提示：访谈中应该避免的问题</em></strong></p>
+<ul>
+<li>提示用户：迫使用户以特定方式回答的问题</li>
+<li>引导性问题：可能会阻止用户探索、提出其他不同的方向</li>
+<li>询问未来的行为：而不是专注于过去/现在</li>
+<li>一题多问：切忌在一句话中问出两个问题</li>
+<li>是否问题：这将结束对话，相反，我们专注于开放式问题</li>
+</ul>
+<p><strong><em>错误示例问题：</em></strong></p>
+<ul>
+<li>提示问题：你会在点外卖上花多少钱</li>
+<li>引导性问题：你能告诉我如何通过点击按钮来重新排序相同的订单吗</li>
+</ul>
+<p>我总是用TEDW方法来概述访谈指南中的问题，TEDW方法如下：</p>
+<ul>
+<li>告诉我（Tell me）</li>
+<li>解释一下（Explain）</li>
+<li>描述一下（Describe）</li>
+<li>带我走走xxx流程（Walk me through）</li>
+</ul>
+<p>除此之外，有一个比较好的编写问题的方法，那就是利用你的研究目的。你的问题应该能够为你提供能够回答你目的的见解。因此，当你问参与者一个问题时，它实质上是在回答其中一个目的，把每个目的都分解为三五个小问题<br><img src="/2019/09/25/【翻译】如何编写一份能够使你的项目成功的用户研究计划/nikki-example.png" alt="pic"></p>
+<p><strong><em>开发示例问题：</em></strong></p>
+<p>因此，让我们考虑一下我们的主要研究问题和目的，并编写一些研究问题</p>
+<p>核心研究问题：了解某些用户以更高的评率重新订购的原因。以及阻碍客户在平台上再下单的障碍</p>
+<p>目的：</p>
+<ul>
+<li>在我们平台内外发现用户订外卖的动机</li>
+<li>发现用户用来订外卖的其他平台</li>
+<li>研究阻碍用户的痛点，以及所有他们可能做的事儿</li>
+</ul>
+<p>研究问题：</p>
+<ul>
+<li>目的 1：在我们平台内外发现用户订外卖的动机<ul>
+<li>回想一下你最后一次在我们平台订外卖，从有这个想法开始，带我走走看你的整个流程。</li>
+<li>解释一下你是怎么决定在我们的平台上重新订外卖的<ul>
+<li>你和谁沟通了？</li>
+<li>是什么时候订外卖的？</li>
+<li>你感觉如何</li>
+<li>你有没有打开其他平台？</li>
+</ul>
+</li>
+<li>描述一下为什么你会再下单，而不是自己做饭或者出去吃</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>目的 2：研究阻碍用户的痛点，以及所有他们可能做的事儿<ul>
+<li>描述一下上一次你在重新订购食物时遇到的困难，那是什么感觉？<ul>
+<li>你是如何解决的？</li>
+</ul>
+</li>
+<li>你认为最理想的订外卖的方案是什么？包括最疯狂的想法</li>
+<li>你将如何更改/改善再下一单的过程？在我们平台里是什么样的，在其他平台是怎么样的？（这里翻译似乎有问题）</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>目的 3：发现用户用来订外卖的其他平台<ul>
+<li>和我谈谈你是怎么使用其他平台（你用的最多的）来定外卖的（包括其他东西）</li>
+<li>描述一下你使用其他平台的体验</li>
+<li>你还使用其他那些平台来订外卖？</li>
+</ul>
+</li>
+</ul>
+<p>这些问题中每一个都是进行开放对话的起点。他们是你想要达成的目的的核心提要。同时又是解决问题的核心。</p>
+<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>总结提醒你在访谈结束时要提及所有内容。通常，你会提供报酬、询问踢门是否会对未来的研究感兴趣，以及向他们表示感谢。</p>
+<p><strong><em>示例总结：</em></strong></p>
+<p>这些都是我今天对你的提问。非常感谢你抽出宝贵的时间。你的反馈意见非常有帮助，我很高兴能够与团队分享，以了解我们如何改进。由于您的反馈非常有用，您将来愿意参加另一个研究访谈吗？您有我的电子邮件，如果您在报酬方面有任何问题，或者将来有任何疑问或反馈，请随时给我发邮件。您还有其他什么问题吗？再次感谢您，希望您能够度过快乐的一天。</p>
+<hr>
+<h3 id="Part-6：大致时间表"><a href="#Part-6：大致时间表" class="headerlink" title="Part 6：大致时间表"></a>Part 6：大致时间表</h3><p>我在研究计划中设定了大致的时间便，可以知道期望的开始日期和结束日期。一些研究人员不使用这玩意，因为它会给自己带来一个难以实现的deadline。我总是强调，这只是一个大致的时间表。</p>
+<p><strong><em>示例时间表</em></strong><br>研究开始日期：周一，8月5日<br>研究计划制定和审核：周三，8月7日<br>招募开始：周四，8月8日<br>访谈开始：周四，9月15日<br>访谈结束：周五，8月23日<br>开始整合：周一，8月26日<br>整合结束：周三，8月28日<br>汇报：周五，8月30日</p>
+<hr>
+<h3 id="Part-7：文档资源"><a href="#Part-7：文档资源" class="headerlink" title="Part 7：文档资源"></a>Part 7：文档资源</h3><p>在本部分中，确保每个人都可以找到研究会议的链接，综合文档，注释，演示文稿，所有开发文件/设计文件，原型或者概念，以及所有为研究提供背景信息的链接。</p>
+<hr>
+<h3 id="总结一下："><a href="#总结一下：" class="headerlink" title="总结一下："></a>总结一下：</h3><p>用户研究计划是你的研究的一个缩略。这是调整期望，征求反馈并激发研究热情和支持的最简单的方法。无论是积极地指导你的访谈，还是只是为组织思想提供一个有效的结构，可靠地研究计划都可以提供很大的帮助</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/06/26/一场梦/" rel="next" title="一场梦">
+                <i class="fa fa-chevron-left"></i> 一场梦
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/10/08/长期更新-设计灵感/" rel="prev" title="[长期更新] 设计灵感">
+                [长期更新] 设计灵感 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="Evans">
+            
+              <p class="site-author-name" itemprop="name">Evans</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Evans</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
